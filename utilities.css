@@ -42,9 +42,12 @@
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+.grid-3{
+    grid-template-columns: repeat(3, 1fr);
 }
