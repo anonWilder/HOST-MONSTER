@@ -41,18 +41,47 @@
 }
 
 .bg-secondary, .btn-secondary{
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: #fff;
 }
 .bg-dark, .btn-dark{
-    background-color: var(--primary-color);
+    background-color: var(--dark-color);
     color: #fff;
 }
 .bg-light, .btn-light{
-    background-color: var(--primary-color);
+    background-color: var(--light-color);
     color: #333;
 }
 
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a, 
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+    color: #fff
+}
+
+/* Text sizes */
+.lead{
+    font-size: 20px;
+}
+
+.sm{
+    font-size: 1rem;
+}
+
+.md{
+    font-size: 2rem;
+}
+
+.lg{
+    font-size: 3rem;
+}
+
+.xl{
+    font-size: 4rem;
+}
 .text-center{
     text-align: center;
 }
